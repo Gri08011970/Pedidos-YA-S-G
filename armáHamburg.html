@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Armar tu Hamburguesa</title>
+  <link rel="stylesheet" href="Css/armarHamburg.css">
+</head>
+<body>
+  <header>
+    <h1>Arma tu Hamburguesa</h1>
+  </header>
+
+  <main>
+    <section class="ingredientes">
+      <h2>Elige tus Ingredientes</h2>
+      <form id="formIngredientes">
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="ingredientes" value="Lechuga"> Lechuga</label>
+          <label><input type="checkbox" name="ingredientes" value="Tomate"> Tomate</label>
+          <label><input type="checkbox" name="ingredientes" value="Cebolla"> Cebolla</label>
+          <label><input type="checkbox" name="ingredientes" value="Queso"> Queso</label>
+          <label><input type="checkbox" name="ingredientes" value="Bacon"> Bacon</label>
+          <label><input type="checkbox" name="ingredientes" value="Salsa BBQ"> Salsa BBQ</label>
+        </div>
+        <button type="submit">Armar mi Hamburguesa</button>
+      </form>
+    </section>
+
+    <section class="resultado" id="resultado">
+      <h2>Tu Hamburguesa Personalizada</h2>
+      <p id="ingredientesElegidos">Aquí aparecerán tus ingredientes seleccionados.</p>
+    </section>
+  </main>
+
+  <script src="armáHamburg.js"></script>
+</body>
+</html>

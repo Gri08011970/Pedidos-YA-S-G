@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .hamburguesas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .hamburguesa {
+    width: 250px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .hamburguesa img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .hamburguesa h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .hamburguesa p {
+    font-size: 14px;
+  }
+ .hamburguesas :hover{
+transform: scale(1.1);
+ }

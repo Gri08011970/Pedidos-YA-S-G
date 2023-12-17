@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=Menú para Programadores, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Armar tu ensalada de códigos</title>
+  <link rel="stylesheet" href="Css/armarHamburg.css">
 </head>
 <body>
-    <img src="imágenes/codigo-html.jpg" alt="códigoHTML" width="550">
-   <p ><b>La mejor ensalada de códigos la conseguís  en Pedidos Ya S&G... <br>para que te rompas la cabeza disfrutando</b> </p>
+  <header>
+    <h1>Arma tu ensalada de códigos</h1>
+  </header>
 
+  <main>
+    <section class="ingredientes">
+      <h2>Elige tus Ingredientes</h2>
+      <form id="formIngredientes">
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="ingredientes" value="!DOCTYPE html">!DOCTYPE html </label>
+          <label><input type="checkbox" name="ingredientes" value="html lang=en">html lang="en" </label>
+          <label><input type="checkbox" name="ingredientes" value="h1>Hola, mundo!/h1">h1Hola, mundo!/h1 </label>
+          <label><input type="checkbox" name="ingredientes" value=" console.log(mensaje);"> console.log(mensaje); </label>
+          <label><input type="checkbox" name="ingredientes" value="/html">/html </label>
+          <label><input type="checkbox" name="ingredientes" value="meta charset="UTF-8>meta charset="UTF-8" </label>
+        </div>
+        <button type="submit">Armar mi ensalada de códigos</button>
+      </form>
+    </section>
+
+    <section class="resultado" id="resultado">
+      <h2>Tu ensalada de códigos Personalizada</h2>
+      <p id="ingredientesElegidos">Aquí aparecerán tus ingredientes seleccionados.</p>
+    </section>
+  </main>
+
+  <script src="armáHamburg.js"></script>
 </body>
 </html>

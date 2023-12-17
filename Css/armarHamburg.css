@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bdf0e1;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .ingredientes {
+    max-width: 300px;
+    margin-right: 20px;
+  }
+  
+  .checkbox-group {
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .resultado {
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resultado h2 {
+    margin-bottom: 10px;
+  }
+ 
+  

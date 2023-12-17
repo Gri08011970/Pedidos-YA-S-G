@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    text-align: center;
+    padding: 20px;
+    background-color: #eb8f8f;
+  }
+  
+  .platos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  .plato {
+    width: 250px;
+    margin: 20px 0;
+  }
+  
+  .plato img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .plato h2 {
+    margin-top: 10px;
+  }
+  
