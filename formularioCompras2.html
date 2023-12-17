@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Compra</title>
+  <link rel="stylesheet" href="Css/estilito.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Formulario de Compra</h2>
+    <form id="formularioCompra" onsubmit="mostrarMensaje(event)">
+      <div class="form-group">
+        <label for="nombreUsuario">Nombre de usuario:</label>
+        <input type="text" id="nombreUsuario" required>
+      </div>
+      <div class="form-group">
+        <label for="direccionEnvio">Dirección de envío:</label>
+        <input type="text" id="direccionEnvio" required>
+      </div>
+      <div class="form-group">
+        <label for="menu">Menú:</label>
+        <select id="menu" required>
+          <option value="Tortilla de papas">Tortilla de papas</option>
+          <option value="Ensaladas expres">Ensaladas expres</option>
+          <option value="Postre de frutillas">Postre de frutillas</option>
+          <option value="Hamburguesas">Hamburguesas</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" max="25" required>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="formularioCompras2.js"></script>
+</body>
+</html>

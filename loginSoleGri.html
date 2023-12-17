@@ -3,21 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Pedidos Ya. S&G</title>
-  <link rel="stylesheet" href="Css/into.css">
+  <link rel="stylesheet" href="Css/estilito.css">
 </head>
 <body>
-  <div class="login-container">
-    <h1>Iniciar Sesión</h1>
-    <form id="loginForm" href="index.html">
-      <input type="text" id="usuario" placeholder="Usuario">
-      <input type="password" id="contraseña" placeholder="Contraseña">
+
+  <div class="container">
+    <h2>Iniciar Sesión</h2>
+    
+    <form id="formularioCompra" onsubmit="mostrarMensaje(event)">
+
+      <div class="form-group">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" required>
+      </div>
+
+      <div class="form-group">
+        <label for="contraseña">contraseña:</label>
+        <input type="password" id="contraseña" required>
+      </div>
       <button type="button" onclick="acceder()">Acceder</button>
-    </form>
+      </form>
   </div>
 
   <div class="mensaje" id="mensajeAcceso">
     <p id="textoAcceso"></p>
   </div>
+
 
   <script src="login.js"></script>
 </body>
